@@ -144,10 +144,10 @@ const splitShiftsProject = new Project({
   id: 'split-shifts-project',
   title: 'SplitShifts',
   client: 'BW Security Services Inc.',
-  projectType: 'Schedule Management Web App (In Progress)',
+  projectType: 'Schedule Manager (In Progress)',
   svgThumbnail: SplitShiftsSVG, // svgThumbnail,
   staticThumbnail: null, // change the key name to staticThumbnail
-  thumbnailBackground: '#d7756b',
+  thumbnailBackground: '#4B5965',
   previewImage: null,
   techStack: [
     'HTML',
@@ -179,10 +179,25 @@ const splitShiftsProject = new Project({
     all schedule changes and important announcements are communicated promptly, reducing the likelihood of miscommunication.`,
   ],
 });
+const cvApplicationProject = new Project({
+  id: 'cv-application-project',
+  title: 'CV Application',
+  client: 'Personal Project',
+  projectType: 'React App',
+  svgThumbnail: null,
+  staticThumbnail: null,
+  thumbnailBackground: null,
+  previewImage: null,
+  techStack: ['HTML', 'CSS', 'JavaScript', 'React'],
+  repository: null,
+  livePreview: null,
+  description: null,
+})
 
 export const projectData = [
   cupKayzProject,
   nybbleBoxProject,
   memoryGameProject,
   splitShiftsProject,
+  cvApplicationProject,
 ];
