@@ -11,6 +11,8 @@ export const StyledCard = styled.div(
     color: ${palette.onSurfaceVariant};
     background-color: ${palette.surfaceContainerLow};
     box-shadow: ${elevation.level1};
+    height: 100%;
+    
     cursor: pointer;
 
     &:hover {
