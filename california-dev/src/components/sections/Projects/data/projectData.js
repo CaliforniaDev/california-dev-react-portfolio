@@ -199,5 +199,5 @@ export const projectData = [
   nybbleBoxProject,
   memoryGameProject,
   splitShiftsProject,
-  cvApplicationProject,
+  // cvApplicationProject, // Uncomment when ready
 ];
