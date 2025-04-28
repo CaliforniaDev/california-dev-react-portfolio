@@ -179,20 +179,20 @@ const splitShiftsProject = new Project({
     all schedule changes and important announcements are communicated promptly, reducing the likelihood of miscommunication.`,
   ],
 });
-const cvApplicationProject = new Project({
-  id: 'cv-application-project',
-  title: 'CV Application',
-  client: 'Personal Project',
-  projectType: 'React App',
-  svgThumbnail: null,
-  staticThumbnail: null,
-  thumbnailBackground: null,
-  previewImage: null,
-  techStack: ['HTML', 'CSS', 'JavaScript', 'React'],
-  repository: null,
-  livePreview: null,
-  description: null,
-})
+// const cvApplicationProject = new Project({
+//   id: 'cv-application-project',
+//   title: 'CV Application',
+//   client: 'Personal Project',
+//   projectType: 'React App',
+//   svgThumbnail: null,
+//   staticThumbnail: null,
+//   thumbnailBackground: null,
+//   previewImage: null,
+//   techStack: ['HTML', 'CSS', 'JavaScript', 'React'],
+//   repository: null,
+//   livePreview: null,
+//   description: null,
+// })
 
 export const projectData = [
   cupKayzProject,
