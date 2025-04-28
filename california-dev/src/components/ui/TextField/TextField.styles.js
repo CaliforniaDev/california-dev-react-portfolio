@@ -147,10 +147,6 @@ export const Label = styled.label(
       color: ${COLOR};
       transition: all 0.3s ease-in-out;
       pointer-events: none;
-
-      &:hover {
-        color: green;
-      }
     `;
   }
 );
