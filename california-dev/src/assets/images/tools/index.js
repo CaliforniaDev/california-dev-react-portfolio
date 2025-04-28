@@ -7,4 +7,7 @@ export { GithubIcon } from './GithubIcon';
 export { JavascriptIcon } from './JavascriptIcon';
 export { PhotoshopIcon } from './PhotoshopIcon';
 export { ReactIcon } from './ReactIcon';
+export { TypeScriptIcon } from './TypeScriptIcon';
+export { NextIcon } from './NextIcon';
+export { TailwindIcon } from './TailWindIcon';
 // ... export other SVG components

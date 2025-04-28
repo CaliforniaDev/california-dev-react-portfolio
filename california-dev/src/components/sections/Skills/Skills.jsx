@@ -11,6 +11,9 @@ import {
   JavascriptIcon,
   PhotoshopIcon,
   ReactIcon,
+  TypeScriptIcon,
+  NextIcon,
+  TailwindIcon,
 } from 'assets/images/tools/';
 
 // Framer motion variants
@@ -42,15 +45,19 @@ const itemVariants = {
 
 export const Skills = React.forwardRef((props, ref) => {
   const iconComponents = [
+    { IconComponent: JavascriptIcon, title: 'JavaScript' },
+    { IconComponent: TypeScriptIcon, title: 'TypeScript' },
+    { IconComponent: ReactIcon, title: 'React' },
+    { IconComponent: NextIcon, title: 'Next.js' },
+    { IconComponent: TailwindIcon, title: 'Tailwind' },
     { IconComponent: HtmlIcon, title: 'HTML' },
     { IconComponent: CssIcon, title: 'CSS' },
-    { IconComponent: FigmaIcon, title: 'Figma' },
-    { IconComponent: AdobeIllustrator, title: 'Illustrator' },
+
     { IconComponent: GitIcon, title: 'Git' },
     { IconComponent: GithubIcon, title: 'GitHub' },
-    { IconComponent: JavascriptIcon, title: 'JavaScript' },
+    { IconComponent: FigmaIcon, title: 'Figma' },
+    { IconComponent: AdobeIllustrator, title: 'Illustrator' },
     { IconComponent: PhotoshopIcon, title: 'Photoshop' },
-    { IconComponent: ReactIcon, title: 'React' },
   ];
 
   const skillsList = iconComponents.map((icon, index) => {
@@ -58,11 +65,11 @@ export const Skills = React.forwardRef((props, ref) => {
       <motion.li variants={itemVariants} key={index}>
         <div className="card">
           <icon.IconComponent className="card-icon" />
-          <p className='card-title'>{icon.title}</p>
+          <p className="card-title">{icon.title}</p>
         </div>
       </motion.li>
-    )
-  })
+    );
+  });
 
   return (
     <Section ref={ref} id="skills-section">
@@ -74,9 +81,7 @@ export const Skills = React.forwardRef((props, ref) => {
         className="content-container"
       >
         <h2 className="section-title">-Skills & Technical Proficiencies-</h2>
-        <ul className="grid-container">
-          {skillsList}
-        </ul>
+        <ul className="grid-container">{skillsList}</ul>
       </motion.div>
     </Section>
   );
