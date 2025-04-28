@@ -119,8 +119,8 @@ const memoryGameProject = new Project({
   thumbnailBackground: null,
   previewImage: memoryGamePreview,
   techStack: ['HTML', 'CSS', 'JavaScript', 'React'],
-  repository: 'https://github.com/CaliforniaDev/React-Memory-Game',
-  livePreview: 'https://californiadev.github.io/React-Memory-Game/',
+  repository: 'https://github.com/CaliforniaDev/react-memory-game',
+  livePreview: 'https://californiadev.github.io/react-memory-game/',
   description: [
     `The React Memory Game is an interactive web-based game designed to 
     challenge players' memory skills. Built using ReactJS, the game offers 
